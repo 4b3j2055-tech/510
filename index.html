@@ -1,77 +1,102 @@
-<!doctype html>
-<html lang="zh-Hant">
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="查看星夜樂團巡演日期與場地資訊。">
-	<title>星夜巡演 | 官方巡演資訊</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>510's Little World</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<header>
-		<nav aria-label="主要導覽">
-			<a href="#首頁" aria-label="星夜巡演首頁">星夜巡演</a>
-			<ul>
-				<li><a href="#巡演介紹">巡演介紹</a></li>
-				<li><a href="#巡演場次">巡演場次</a></li>
-				<li><a href="#售票資訊">售票資訊</a></li>
-			</ul>
-		</nav>
-	</header>
+    
+<nav class="navbar">
 
-	<main>
-		<section id="首頁" aria-labelledby="hero-title">
-			<p>2026 LIVE TOUR</p>
-			<h1 id="hero-title">星夜之下，與你相遇</h1>
-			<p>星夜樂團 2026 巡演，即將啟程。</p>
-			<p id="倒數" aria-live="polite">巡演倒數載入中</p>
-			<a href="#巡演場次">探索巡演場次</a>
-		</section>
+    <div class="logo">510 ♡</div>
 
-		<section id="巡演介紹" aria-labelledby="intro-title">
-			<h2 id="intro-title">把每一座城市，唱成我們的回憶</h2>
-			<p>全新現場演出，四座城市，一起迎接只此一次的夜晚。</p>
-		</section>
+    <div class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#hobbies">HOBBIES</a>
+        <a href="#favorites">FAVORITES</a>
+        <a href="#personality">PERSONALITY</a>
+    </div>
 
-		<section id="巡演場次" aria-labelledby="dates-title">
-			<h2 id="dates-title">巡演場次</h2>
-			<div class="tour-dates">
-				<div class="card">
-					<p>2026 年 6 月 13 日</p>
-					<h3>台北</h3>
-					<p>台北流行音樂中心</p>
-					<a href="#售票資訊">查看票務資訊</a>
-				</div>
-				<div class="card">
-					<p>2026 年 6 月 20 日</p>
-					<h3>台中</h3>
-					<p>台中洲際多功能展演中心</p>
-					<a href="#售票資訊">查看票務資訊</a>
-				</div>
-				<div class="card">
-					<p>2026 年 6 月 27 日</p>
-					<h3>高雄</h3>
-					<p>高雄巨蛋</p>
-					<a href="#售票資訊">查看票務資訊</a>
-				</div>
-				<div class="card">
-					<p>2026 年 7 月 4 日</p>
-					<h3>台南</h3>
-					<p>台南市立體育場</p>
-					<a href="#售票資訊">查看票務資訊</a>
-				</div>
-			</div>
-		</section>
+</nav>
 
-		<section id="售票資訊" aria-labelledby="tickets-title">
-			<h2 id="tickets-title">售票資訊</h2>
-			<p>售票時間與購票連結即將公布，敬請留意官方消息。</p>
-		</section>
-	</main>
 
-	<footer>
-		<p>&copy; 2026 星夜樂團。保留所有權利。</p>
-	</footer>
+  <section class="hero" id="home">
+
+        <div class="hero-card">
+
+            <p class="small-title">
+                WELCOME TO MY WORLD ♡
+            </p>
+
+            <h1>Hi! I'm <span>510</span></h1>
+
+            <h2>A little space about me.</h2>
+
+            <p>
+                歡迎來到我的小宇宙！
+                這裡收藏著我的興趣、
+                音樂和喜歡的事物。
+            </p>
+
+            <a href="#about" class="main-button">
+                GET TO KNOW ME →
+            </a>
+
+        </div>
+
+    </section>
+    
+<!-- 自我介紹 -->
+<section class="content-section" id="about">
+    <h2>ABOUT ME ♡</h2>
+    <p>哈囉！我是 510！</p>
+    <p>一個喜歡設計、音樂和生活小事的人。</p>
+    <p>MBTI：ENFJ</p>
+</section>
+
+<!-- 興趣 -->
+<section class="content-section pink-section" id="hobbies">
+    <h2>MY HOBBIES ♡</h2>
+    <p>🎨 畫畫：喜歡用畫筆記錄生活。</p>
+    <div class="image-grid">
+        <article class="image-card">
+            <img src="烏克麗麗.jpg" alt="烏克麗麗">
+            <p>🎸 烏克麗麗：喜歡彈奏喜歡的旋律。</p>
+        </article>
+    </div>
+</section>
+
+<!-- 最愛收藏 -->
+<section class="content-section" id="favorites">
+    <h2>MY FAVORITES ♡</h2>
+    <div class="image-grid">
+        <article class="image-card">
+            <img src="暗殺教室.jpg" alt="暗殺教室">
+            <p>🎬 動漫：暗殺教室</p>
+        </article>
+        <article class="image-card">
+            <img class="image-original" src="911.jpg" alt="玖壹壹">
+            <p>🎵 偶像：玖壹壹</p>
+        </article>
+    </div>
+</section>
+
+<!-- 個性介紹 -->
+<section class="content-section pink-section" id="personality">
+    <h2>MY PERSONALITY ♡</h2>
+    <p>MBTI：ENFJ</p>
+    <img class="about-mbti-image" src="esfj.jpeg" alt="ESFJ 人格特質">
+    <p>熱情、喜歡與人交流，也喜歡照顧身邊的人。</p>
+</section>
+
+
 </body>
 </html>
